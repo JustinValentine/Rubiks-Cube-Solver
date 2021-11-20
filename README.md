@@ -2,7 +2,7 @@
 A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube. 
 
 ## Table of contents 
-* [General info](#General info)
+* [General info](*GeneralInfo)
 * [Technologies](#Technologies)
 * [Setup](#Setup)
 
