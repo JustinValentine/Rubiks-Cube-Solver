@@ -1,5 +1,7 @@
 # Virtual Rubik's Cube
 A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube. 
+![alt text][logo]
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ## Table of contents 
 * [General info](*General-info)
@@ -23,7 +25,7 @@ Turns on the cube are defined by 4 functions:
 * **Face_Rot_CW**, **Face_Rot_CCW**
   * The face rotation functions are called whenever an outside layer is rotated. The algorithm works by performing a matrix transpose and reversing the order of the face columns. Depending on if the rotation is CW or CCW the order of these two steps is swapped. 
 * **Edge_Rot_CW**
-  * The edge rotation function is defined on 3-axes x,y,z and can be performed on any layer of the cube. It is defined as a set of maps that take rows/columns from one face on the cube to another.
+  * The edge rotation function is defined on 3-axes x, y, z and can be performed on any layer of the cube. It is defined as a set of maps that take rows/columns from one face on the cube to another.
 * **MakeMove**   
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
