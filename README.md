@@ -29,6 +29,7 @@ Turns on the cube are defined by 4 functions:
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
 ### Rubiks Cube Scan: 
+#### Sticker Color Masks:
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/OrangeStickerMask.png)
@@ -36,7 +37,7 @@ Turns on the cube are defined by 4 functions:
 
 ## Technologies
 Project is created with:
-* python version 2.9
+* python version 2.7.18
 * opencv version 3.1.0
 
 ## Setup
