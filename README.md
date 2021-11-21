@@ -29,6 +29,10 @@ Turns on the cube are defined by 4 functions:
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
 ### Rubiks Cube Scan: 
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/CubeScan.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/GreenStickerMask.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/OrangeStickerMask.png)
+
 
 ## Technologies
 Project is created with:
