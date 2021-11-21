@@ -40,7 +40,7 @@ Turns on the cube are defined by 4 functions:
 1. A color mask is applied to the video stream for each sticker color. 
 2. The masked image is passed to a function where the contours of the image are calculated. 
 3. The contours are sent to a second function where the area of the contours is found, any area greater than some threshold is then drawn and labeled on the final image. 
-4. The sticker data recoded into an nxn array. 
+4. The sticker data is recoded into an nxn array. 
 5. This process Is repeated for all faces of the cube.  
   
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)  
