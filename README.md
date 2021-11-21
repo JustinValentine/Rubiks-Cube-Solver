@@ -3,10 +3,10 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
-* [General info](#general-info)
-...* [Cube Data Structure](#Cube-Data-Structure)
-...* [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
-...* [Scaning the Cube](#Scaning-the-Cube)
+* [General info](#general-info)  
+  * [Cube Data Structure](#Cube-Data-Structure)
+  * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
+  * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
