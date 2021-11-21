@@ -26,6 +26,12 @@ Red | 5
 Turns on the cube are defined by 4 functions:
 * **Face_Rot_CW**, **Face_Rot_CCW**
   * The face rotation functions are called whenever an outside layer is rotated. The algorithm works by performing a matrix transpose and reversing the order of the face columns. Depending on if the rotation is CW or CCW the order of these two steps is swapped. 
+  * '''python 
+        Face = self.matrix[self.CubeFace]
+        for i in range(len(Face)):
+            Face[i][::] = Face[i][::-1]
+        Face = np.transpose(Face)'''
+        
 * **Edge_Rot_CW**
   * The edge rotation function is defined on 3-axes x, y, z and can be performed on any layer of the cube. It is defined as a set of maps that take rows/columns from one face on the cube to another.
 * **MakeMove**   
