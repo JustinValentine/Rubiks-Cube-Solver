@@ -3,9 +3,9 @@ A collection of projects that simulates, scans, and solves a nxnxn Rubik's cube.
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
-* [General info](*General-info)
-* [Technologies](#Technologies)
-* [Setup](#Setup)
+* [General info](*general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
 ## General info
 ### Cube Data Structure:
