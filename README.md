@@ -34,16 +34,17 @@ Turns on the cube are defined by 4 functions:
 * **Edge_Rot_CW**
   * The edge rotation function is defined on 3-axes x, y, z and can be performed on any layer of the cube. It is defined as a set of maps that take rows/columns from one face on the cube to another.
 * **MakeMove**   
-  * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
+  * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move.  
 
 ### Scaning the Cube: 
 1. A color mask is applied to the video stream for each sticker color. 
 2. The masked image is passed to a function where the contours of the image are calculated. 
 3. The contours are sent to a second function where the area of the contours is found, any area greater than some threshold is then drawn and labeled on the final image. 
 4. The sticker data recoded into an nxn array. 
-5. This process Is repeated for all faces of the cube.   
+5. This process Is repeated for all faces of the cube.  
+  
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)  
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)  
 
 ## Technologies
 Project is created with:
