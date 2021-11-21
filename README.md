@@ -1,9 +1,9 @@
 # Virtual Rubik's Cube
-A collection of projects that simulates, scans, and solves a nxnxn Rubik's cube. 
+A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube. 
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
-* [General info](*general-info)
+* [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
