@@ -1,6 +1,6 @@
 # Virtual Rubik's Cube
 A collection of projects that simulates, scans, and solves a nxnxn Rubik's cube. 
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/LargeCubeEx.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
 * [General info](*General-info)
@@ -29,9 +29,9 @@ Turns on the cube are defined by 4 functions:
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
 ### Rubiks Cube Scan: 
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/CubeScan.png)
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/GreenStickerMask.png)
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/OrangeStickerMask.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/OrangeStickerMask.png)
 
 
 ## Technologies
