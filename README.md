@@ -32,10 +32,8 @@ Turns on the cube are defined by 4 functions:
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
 ### Scaning the Cube: 
-A color mask is applied to the video stream for each sticker color. The masked image is passed to a function where the contours of the image are calculated. The contours are sent to a second function where the area of the contours is found, any area greater than some threshold is then drawn and labeled on the final image. The sticker data is also recoded into an nxn array. This process Is repeated for all faces of the cube.  
-Final Image:  
+A color mask is applied to the video stream for each sticker color. The masked image is passed to a function where the contours of the image are calculated. The contours are sent to a second function where the area of the contours is found, any area greater than some threshold is then drawn and labeled on the final image. The sticker data is also recoded into an nxn array. This process Is repeated for all faces of the cube.   
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)  
-Green Sticker Mask:  
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)
 
 ## Technologies
