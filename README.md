@@ -1,6 +1,5 @@
 # Virtual Rubik's Cube
 A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube. 
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
 * [General Info](#general-info)  
@@ -11,6 +10,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 * [Setup](#setup)
 
 ## General Info
+![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 ### Cube Data Structure:
 The state of the cube is represented as a list of nxn arrays. Where each instance of this list is a face on the cube, and each array element is a number from 0-5. The color of a piece is defined by the following map: 
 Color | Number 
