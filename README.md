@@ -7,7 +7,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
   * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [To Do](#To-Do)
 
 ## General Info
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
@@ -41,3 +41,5 @@ Project is created with:
 * python version 2.7.18
 * opencv version 3.1.0
 * numpy version 1.21.1
+
+## To Do
