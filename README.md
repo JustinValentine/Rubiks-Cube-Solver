@@ -3,14 +3,14 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/LargeCubeEx.png)
 
 ## Table of contents 
-* [General info](#general-info)  
+* [General Info](#general-info)  
   * [Cube Data Structure](#Cube-Data-Structure)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
   * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## General info
+## General Info
 ### Cube Data Structure:
 The state of the cube is represented as a list of nxn arrays. Where each instance of this list is a face on the cube, and each array element is a number from 0-5. The color of a piece is defined by the following map: 
 Color | Number 
@@ -40,5 +40,3 @@ A color mask is applied to the video stream for each sticker color. The masked i
 Project is created with:
 * python version 2.7.18
 * opencv version 3.1.0
-
-## Setup
