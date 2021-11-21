@@ -1,4 +1,5 @@
 import tkinter as tk
+import numpy as np
 import random, copy
 from random import choice
 import colors as c
