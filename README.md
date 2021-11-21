@@ -4,6 +4,9 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ## Table of contents 
 * [General info](#general-info)
+ * [Cube Data Structure](#Cube-Data-Structure)
+ * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
+ * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
@@ -28,7 +31,7 @@ Turns on the cube are defined by 4 functions:
 * **MakeMove**   
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move. 
 
-### Rubiks Cube Scan: 
+### Scaning the Cube: 
 #### Sticker Color Masks:
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)
