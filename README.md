@@ -53,3 +53,4 @@ Project is created with:
 * numpy version 1.21.1
 
 ## To Do
+* implement f2l algorithms
