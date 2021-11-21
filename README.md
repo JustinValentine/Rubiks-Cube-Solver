@@ -40,3 +40,4 @@ A color mask is applied to the video stream for each sticker color. The masked i
 Project is created with:
 * python version 2.7.18
 * opencv version 3.1.0
+* numpy version 1.21.1
