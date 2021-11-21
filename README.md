@@ -4,9 +4,9 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ## Table of contents 
 * [General info](#general-info)
- * [Cube Data Structure](#Cube-Data-Structure)
- * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
- * [Scaning the Cube](#Scaning-the-Cube)
+...* [Cube Data Structure](#Cube-Data-Structure)
+...* [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
+...* [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
