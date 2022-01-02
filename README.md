@@ -51,6 +51,3 @@ Project is created with:
 * python version 2.7.18
 * opencv version 3.1.0
 * numpy version 1.21.1
-
-## To Do
-* implement f2l algorithms
