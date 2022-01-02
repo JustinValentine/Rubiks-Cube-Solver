@@ -46,19 +46,19 @@ class Cube(tk.Frame):
             Btn_frame, 
             text = 'Solve', 
             bd = '1',
-            font=c.SCORE_LABEL_FONT,
+            font=c.BUTTON_FONT,
             command= lambda t= "Button-1 Clicked": self.Solve()).grid(row=0,column=0)
         self.ScanBtn = tk.Button(
             Btn_frame, 
             text = 'Scan', 
             bd = '1',
-            font=c.SCORE_LABEL_FONT).grid(row=0,
+            font=c.BUTTON_FONT).grid(row=0,
             column=1)
         self.MixBtn = tk.Button(
             Btn_frame, 
             text = 'Mix', 
             bd = '1',
-            font=c.SCORE_LABEL_FONT,
+            font=c.BUTTON_FONT,
             command= lambda t= "Button-1 Clicked": self.scramble()).grid(row=0,
             column=2)
 
@@ -67,7 +67,7 @@ class Cube(tk.Frame):
             Btn_frame, 
             text="  Size",
             bd = '2',
-            font=c.SCORE_LABEL_FONT
+            font=c.BUTTON_FONT
             ).grid(row=0, column=3)
         self.e1 = tk.Entry(Btn_frame)
         self.e1.grid(row=0, column=4)
@@ -76,7 +76,7 @@ class Cube(tk.Frame):
             Btn_frame, 
             text="  Move",
             bd = '2',
-            font=c.SCORE_LABEL_FONT
+            font=c.BUTTON_FONT
             ).grid(row=0, column=5)
         self.e2 = tk.Entry(Btn_frame)
         self.e2.grid(row=0, column=6)
@@ -84,9 +84,7 @@ class Cube(tk.Frame):
         self.e1.bind("<Return>", self.ChangeSize)
         self.e2.bind("<Return>", self.UserMove)
 
-
         tk.Label(height = 6, width = 110).grid(row=1, column=0)
-
         self.display()
 
         self.mainloop()
@@ -104,11 +102,11 @@ class Cube(tk.Frame):
 
             tk.Label(text=' '.join(self.DisplayText),
                      bd = '5',
-                     font=(c.SCORE_LABEL_FONT, 15),
+                     font=(c.BUTTON_FONT, 15),
                      wraplength = 970,
                      justify = tk.LEFT).grid(row=1, column=0)  
 
-        self.main_grid.after(50, self.display)
+        self.main_grid.after(150, self.display)
         
 
     def CalcCellSize(self):
@@ -1070,6 +1068,7 @@ class Cube(tk.Frame):
         self.MoveSetTranslator()
 
         self.matrix = Testcube
+        self.display()
 
 
 def main():
