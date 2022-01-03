@@ -11,6 +11,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ## General Info
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif)
+
 ###How To Use:
 - To preforme a turn, type 'x0n', y0n', or 'z0n' into the move entry box, n is a number between 0 and the size of the cube-1 
 
