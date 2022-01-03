@@ -14,6 +14,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ### How To Use:
 - To perform a turn type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
+- To Change Size of cube, type desired size into the size entry box (works best for sizes < 10)
 - Solve feature only works on 3x3x3 cubes 
 
 ### Cube Data:
