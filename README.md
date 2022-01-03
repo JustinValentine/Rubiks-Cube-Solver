@@ -47,6 +47,6 @@ Turns on the cube are defined by 4 functions:
 
 ## Technologies
 Project is created with:
-* python version 2.7.18
+* python version 3.9.9
 * opencv version 3.1.0
 * numpy version 1.21.1
