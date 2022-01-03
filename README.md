@@ -3,6 +3,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ## Table of contents 
 * [General Info](#general-info)  
+  * [How To Use](#How-To-Use)
   * [Cube Data Structure](#Cube-Data-Structure)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
   * [Scaning the Cube](#Scaning-the-Cube)
@@ -10,6 +11,9 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 
 ## General Info
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif)
+###How To Use:
+- To preforme a turn, type 'x0n', y0n', or 'z0n' into the move entry box, n is a number between 0 and the size of the cube-1 
+
 ### Cube Data Structure:
 The state of the cube is represented as a list of nxn arrays. Where each instance of this list is a face on the cube, and each array element is a number from 0-5. The color of a piece is defined by the following map: 
 Color | Number 
