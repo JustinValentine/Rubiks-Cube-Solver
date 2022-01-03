@@ -4,7 +4,7 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 ## Table of contents 
 * [General Info](#general-info)  
   * [How To Use](#How-To-Use)
-  * [Cube Data Structure](#Cube-Data-Structure)
+  * [Cube Data](#Cube-Data)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
   * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
@@ -13,10 +13,11 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 ![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif)
 
 ### How To Use:
-- To preforme a turn, type 'x0n', y0n', or 'z0n' into the move entry box, n is a number between 0 and the size of the cube-1 
+- To perform a turn type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
+- Solve feature only works on 3x3x3 cubes 
 
-### Cube Data Structure:
-The state of the cube is represented as a list of nxn arrays. Where each instance of this list is a face on the cube, and each array element is a number from 0-5. The color of a piece is defined by the following map: 
+### Cube Data:
+The state of the cube is represented as a list of nxn matrixes, each matrix corresponds to a face on the cube. The matrix elements are numbers from 0-5 which map to the color of a piece on the face. 
 Color | Number 
 --- | ---
 Green | 0
