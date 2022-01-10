@@ -1,5 +1,5 @@
-# Virtual Rubik's Cube
-A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube. 
+# Rubik's Cube Solver
+This program can solve all 43 quintillion possible arrangements of a Rubik's Cube. The program also simulates any 'size' of 3-D combination puzzle, i.e. 10x10x10, 16x16x16, ... Rubiks Cubes. OpenCV has been implemented to allow users to scan their real-world Rubiks Cube into the solver. 
 
 ## Table of contents 
 * [General Info](#general-info)  
