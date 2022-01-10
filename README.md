@@ -5,7 +5,6 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 * [General Info](#general-info)  
   * [How To Use](#How-To-Use)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
-  * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
 
 ## General Info
@@ -32,18 +31,8 @@ Turns on the cube are defined by 4 functions:
 * **MakeMove**   
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move.  
 
-### Scaning the Cube: 
-1. A color mask is applied to the video stream for each sticker color. 
-2. The masked image is passed to a function where the contours of the image are calculated. 
-3. The contours are sent to a second function where the area of the contours is found, any area greater than some threshold is then drawn and labeled on the final image. 
-4. The sticker data is recoded into an nxn array. 
-5. This process Is repeated for all faces of the cube.  
-  
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/CubeScan.png)  
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/GreenStickerMask.png)  
-
 ## Technologies
 Project is created with:
-* python version 3.9.9
-* opencv version 3.1.0
-* numpy version 1.21.1
+* Python version 3.9.9
+* OpenCV version 3.1.0
+* Numpy version 1.21.1
