@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Rubik's Cube Solver   <img src="https://giphy.com/stickers/fun-cube-facts-B9ASSRShV2dPi" width="40px"></h1>
+<h1>Rubik's Cube Solver   <img src="https://media.giphy.com/media/B9ASSRShV2dPi/giphy.gif" width="40px"></h1>
 <div align="left">
  
 # Rubik's Cube Solver
