@@ -1,8 +1,6 @@
-<div align="center">
-<h1>Rubik's Cube Solver   <img src="https://media.giphy.com/media/B9ASSRShV2dPi/giphy.gif" width="60px"></h1>
 <div align="left">
- 
-# Rubik's Cube Solver
+<h1>Rubik's Cube Solver   <img src="https://media.giphy.com/media/B9ASSRShV2dPi/giphy.gif" width="60px"></h1>
+
 This program can solve all 43 quintillion possible arrangements of a Rubik's Cube. The program also simulates any 'size' of 3-D combination puzzle, i.e. 10x10x10, 16x16x16, ect. OpenCV has been implemented to allow users to scan their real-world Rubiks Cube into the solver. See it in action: link
 
 ## Table of contents 
