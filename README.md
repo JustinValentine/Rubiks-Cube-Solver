@@ -10,7 +10,8 @@ A collection of projects that simulate, scan, and solve a nxnxn Rubik's cube.
 * [Technologies](#technologies)
 
 ## General Info
-![alt text](https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif)
+<div align="center">
+<h1><img src="https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif" width="400px"></h1>
 
 ### How To Use:
 - To perform a turn type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
