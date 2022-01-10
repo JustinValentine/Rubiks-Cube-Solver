@@ -4,7 +4,6 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 ## Table of contents 
 * [General Info](#general-info)  
   * [How To Use](#How-To-Use)
-  * [Cube Data](#Cube-Data)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
   * [Scaning the Cube](#Scaning-the-Cube)
 * [Technologies](#technologies)
@@ -18,17 +17,6 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 - To perform a turn type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
 - To Change Size of cube, type desired size into the size entry box (works best for sizes < 10)
 - Solve feature only works on 3x3x3 cubes 
-
-### Cube Data:
-The state of the cube is represented as a list of nxn matrixes, each matrix corresponds to a face on the cube. The matrix elements are numbers from 0-5 which map to the color of a piece on the face. 
-Color | Number 
---- | ---
-Green | 0
-White | 1
-Blue | 2
-Yellow | 3
-Orange | 4
-Red | 5
  
 ### Defining Turns on the Cube:
 Turns on the cube are defined by 4 functions:
