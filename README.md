@@ -5,7 +5,7 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 
 ## Table of contents 
 * [General Info](#general-info) 
-  * [How To Set-up](#How-To Set-up)
+  * [How To Set-up](#How-To-Set-up)
   * [How To Use](#How-To-Use)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
 * [Technologies](#technologies)
