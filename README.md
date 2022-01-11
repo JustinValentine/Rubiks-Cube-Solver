@@ -4,7 +4,8 @@
 This program can solve all 43 quintillion possible arrangements of a Rubik's Cube. The program also simulates any 'size' of 3-D combination puzzle, i.e. 10x10x10, 16x16x16, ect. OpenCV has been implemented to allow users to scan their real-world Rubiks Cube into the solver. See it in action: link
 
 ## Table of contents 
-* [General Info](#general-info)  
+* [General Info](#general-info) 
+  * [How To Install](#How-To-Install)
   * [How To Use](#How-To-Use)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
 * [Technologies](#technologies)
@@ -13,6 +14,8 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 <div align="center">
 <h1><img src="https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif" width="500px"></h1>
 <div align="left">
+ 
+### How To Install:
  
 ### How To Use:
 - To perform a turn, type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
