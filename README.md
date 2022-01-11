@@ -5,17 +5,15 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 
 ## Table of contents 
 * [General Info](#general-info) 
-  * [How To Set-up](#How-To-Set-up)
   * [How To Use](#How-To-Use)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
+  * [Set-up](#Set-up)
 * [Technologies](#technologies)
 
 ## General Info
 <div align="center">
 <h1><img src="https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif" width="500px"></h1>
 <div align="left">
- 
-### How To Set-up:
  
 ### How To Use:
 - To perform a turn, type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
@@ -36,6 +34,8 @@ Turns on the cube are defined by 4 functions:
 * **MakeMove**   
   * The MakeMove function breaks down a move into its axis of rotation and its layer number. It then calls the necessary functions to perform the move.  
 
+### Set-up:
+                                                                                               
 ## Technologies
 Project is created with:
 * Python version 3.9.9
