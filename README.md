@@ -5,7 +5,7 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 
 ## Table of contents 
 * [General Info](#general-info) 
-  * [How To Install](#How-To-Install)
+  * [How To Set-up](#How-To Set-up)
   * [How To Use](#How-To-Use)
   * [Defining Turns on the Cube](#Defining-Turns-on-the-Cube)
 * [Technologies](#technologies)
@@ -15,7 +15,7 @@ This program can solve all 43 quintillion possible arrangements of a Rubik's Cub
 <h1><img src="https://github.com/JustinValentine/RubiksCube/blob/main/Images/Solve.gif" width="500px"></h1>
 <div align="left">
  
-### How To Install:
+### How To Set-up:
  
 ### How To Use:
 - To perform a turn, type 'x0n', y0n', or 'z0n' into the move entry box (n is a number between 0 and the size of the cube-1)
